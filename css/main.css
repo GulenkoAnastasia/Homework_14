@@ -1,0 +1,252 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background: linear-gradient(to bottom, #9cbff2 0%, #010202 100%, #8c3310 100%, #bf6e4e 100%) no-repeat 50% 0;
+  height: 100vh;
+  font-family: "Roboto", sans-serif; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+.main-content {
+  width: 1300px;
+  margin: auto;
+  padding-top: 40px;
+  overflow: hidden; }
+  .main-content .block {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 25px;
+    min-height: 387px;
+    overflow: hidden; }
+    .main-content .block .login {
+      background: #6a92d7;
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 60px;
+      width: 100%; }
+    .main-content .block .profile {
+      background: #9c9077;
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 60px;
+      width: 100%; }
+    .main-content .block .download {
+      background: #4c8d6f;
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 60px;
+      width: 100%; }
+    .main-content .block .location {
+      background: #a7a176;
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 60px;
+      width: 100%; }
+    .main-content .block .btn1 {
+      background: #bdcee5;
+      color: #8f5757;
+      height: 60px;
+      border-radius: 7px;
+      margin-bottom: 10px;
+      width: 250px;
+      font-size: 20px;
+      text-transform: uppercase;
+      outline: none;
+      border: none;
+      min-width: 250px;
+      font-family: "Roboto", sans-serif; }
+    .main-content .block .btn2 {
+      background: #688dcc;
+      color: #711212;
+      height: 60px;
+      border-radius: 7px;
+      margin-bottom: 10px;
+      width: 250px;
+      font-size: 20px;
+      text-transform: uppercase;
+      outline: none;
+      border: none;
+      min-width: 250px;
+      font-family: "Roboto", sans-serif; }
+    .main-content .block .btn3 {
+      background: #74afd8;
+      color: #e3f73a;
+      height: 60px;
+      border-radius: 7px;
+      margin-bottom: 10px;
+      width: 250px;
+      font-size: 20px;
+      text-transform: uppercase;
+      outline: none;
+      border: none;
+      min-width: 250px;
+      font-family: "Roboto", sans-serif; }
+    .main-content .block .btn4 {
+      background: #65a98f;
+      color: #fff;
+      height: 60px;
+      border-radius: 7px;
+      margin-bottom: 10px;
+      width: 250px;
+      font-size: 20px;
+      text-transform: uppercase;
+      outline: none;
+      border: none;
+      min-width: 250px;
+      font-family: "Roboto", sans-serif; }
+    .main-content .block .content-holder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 23px;
+      width: 100%; }
+      .main-content .block .content-holder .btn-small {
+        font-size: 14px;
+        height: 42px;
+        border-radius: 5px;
+        margin-bottom: 8px;
+        width: 174px;
+        font-size: 14px;
+        min-width: 174px; }
+  .main-content .special {
+    min-height: 145px; }

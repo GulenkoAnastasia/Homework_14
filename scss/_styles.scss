@@ -1,0 +1,63 @@
+body {
+  background: $backgroundColor;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.main-content {
+  width: 1300px;
+  margin: auto;
+  padding-top: 40px;
+  overflow: hidden;
+  .block {
+    width: 300px;
+    background: rgba($backgroundBlockColor, $backgroundBlockAlpha);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 25px;
+    min-height: 387px;
+    overflow: hidden;
+    .login {
+      @include h2($h2BgColorLogin);
+    }
+    .profile {
+      @include h2($h2BgColorProfile);
+    }
+    .download {
+      @include h2($h2BgColorDownload);
+    }
+    .location {
+      @include h2($h2BgColorLocation);
+    }
+    .btn1 {
+      @include btn($btnColorOne, $btnTextColorOne);
+    }
+    .btn2 {
+      @include btn($btnColorTwo, $btnTextColorTwo);
+    }
+    .btn3 {
+      @include btn($btnColorThree, $btnTextColorThree);
+    }
+    .btn4 {
+      @include btn($btnColorFour, $btnTextColorFour);
+    }
+    .content-holder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 23px;
+      width: 100%;
+      .btn-small {
+        @include btn-small;
+      }
+    }
+  }
+  .special {
+    min-height: 145px;
+  }
+}

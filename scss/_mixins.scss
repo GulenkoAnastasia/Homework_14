@@ -1,0 +1,33 @@
+@mixin h2($bg) {
+  background: $bg;
+  color: $h2Color;
+  font-size: $font-medium;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+  width: 100%;
+}
+
+@mixin btn($bg, $color) {
+  background: $bg;
+  color: $color;
+  height: $big-btn-height;
+  border-radius: $big-btn-br;
+  margin-bottom: $big-btn-mb;
+  width: $big-width;
+  font-size: $font-medium;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  min-width: 250px;
+  font-family: "Roboto", sans-serif;
+}
+@mixin btn-small {
+  font-size: $font-small;
+  height: $small-btn-height;
+  border-radius: $small-btn-br;
+  margin-bottom: $small-btn-mb;
+  width: $small-width;
+  font-size: $font-small;
+  min-width: 174px;
+}
